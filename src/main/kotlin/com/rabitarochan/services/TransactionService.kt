@@ -7,7 +7,7 @@ import org.springframework.transaction.annotation.Transactional
 
 @Service
 @Transactional
-open class KotlinService {
+open class TransactionService {
 
     val template: NamedParameterJdbcTemplate
 
